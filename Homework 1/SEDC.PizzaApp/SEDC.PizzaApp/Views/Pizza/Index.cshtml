@@ -1,0 +1,16 @@
+﻿@using SEDC.PizzaApp.Models.ViewModels
+@model List<PizzaViewModel>
+
+<h2>List of Pizzas:</h2>
+
+<ul>
+    @for (int i = 0; i < @Model.Count; i++)
+    {
+        <li>
+            <b>@Model.ElementAt(i).Name</b><br>
+            Price - @Model.ElementAt(i).Price <br>
+            Promotion - @Model.ElementAt(i).IsOnPromotion <br>
+            Has Extras - @Model.ElementAt(i).HasExtras
+        </li>
+    }
+</ul>
