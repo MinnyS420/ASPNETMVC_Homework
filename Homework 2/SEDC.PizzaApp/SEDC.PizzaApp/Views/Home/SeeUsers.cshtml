@@ -1,0 +1,11 @@
+﻿@using SEDC.PizzaApp.Models.Domain;
+@model List<User>
+
+<h1>Users</h1>
+
+<ul>
+    @foreach (var user in Model)
+    {
+        <li>@($"{user.FirstName} {user.LastName}")</li>
+    }
+</ul>

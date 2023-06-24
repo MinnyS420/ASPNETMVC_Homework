@@ -1,0 +1,18 @@
+﻿@using SEDC.PizzaApp.Models.ViewModels
+@model PizzaViewModel
+
+<div>
+    <h2>Pizza Details</h2>
+
+    <p>Name: @Model.Name</p>
+    <p>Price: @Model.Price</p>
+
+    @if (Model.IsOnPromotion == true)
+    {
+        <h4>This pizza is on promotion!</h4>
+    }
+    else
+    {
+        <h4>This pizza is not on promotion.</h4>
+    }
+</div>
