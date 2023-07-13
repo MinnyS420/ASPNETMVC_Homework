@@ -1,0 +1,202 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SEDC.BurgerApp.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SEDC.BurgerApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SEDC.BurgerApp.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.BurgerApp.DataAccess.dll": {}
+        }
+      },
+      "SEDC.BurgerApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SEDC.BurgerApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.BurgerApp.Domain.dll": {}
+        }
+      },
+      "SEDC.BurgerApp.Helpers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SEDC.BurgerApp.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SEDC.BurgerApp.Helpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.BurgerApp.Helpers.dll": {}
+        }
+      },
+      "SEDC.BurgerApp.Mappers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SEDC.BurgerApp.Domain": "1.0.0",
+          "SEDC.BurgerApp.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SEDC.BurgerApp.Mappers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.BurgerApp.Mappers.dll": {}
+        }
+      },
+      "SEDC.BurgerApp.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SEDC.BurgerApp.DataAccess": "1.0.0",
+          "SEDC.BurgerApp.Mappers": "1.0.0",
+          "SEDC.BurgerApp.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SEDC.BurgerApp.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.BurgerApp.Services.dll": {}
+        }
+      },
+      "SEDC.BurgerApp.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SEDC.BurgerApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SEDC.BurgerApp.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.BurgerApp.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SEDC.BurgerApp.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.BurgerApp.DataAccess/SEDC.BurgerApp.DataAccess.csproj",
+      "msbuildProject": "../SEDC.BurgerApp.DataAccess/SEDC.BurgerApp.DataAccess.csproj"
+    },
+    "SEDC.BurgerApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.BurgerApp.Domain/SEDC.BurgerApp.Domain.csproj",
+      "msbuildProject": "../SEDC.BurgerApp.Domain/SEDC.BurgerApp.Domain.csproj"
+    },
+    "SEDC.BurgerApp.Helpers/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.BurgerApp.Helpers/SEDC.BurgerApp.Helpers.csproj",
+      "msbuildProject": "../SEDC.BurgerApp.Helpers/SEDC.BurgerApp.Helpers.csproj"
+    },
+    "SEDC.BurgerApp.Mappers/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.BurgerApp.Mappers/SEDC.BurgerApp.Mappers.csproj",
+      "msbuildProject": "../SEDC.BurgerApp.Mappers/SEDC.BurgerApp.Mappers.csproj"
+    },
+    "SEDC.BurgerApp.Services/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.BurgerApp.Services/SEDC.BurgerApp.Services.csproj",
+      "msbuildProject": "../SEDC.BurgerApp.Services/SEDC.BurgerApp.Services.csproj"
+    },
+    "SEDC.BurgerApp.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.BurgerApp.ViewModels/SEDC.BurgerApp.ViewModels.csproj",
+      "msbuildProject": "../SEDC.BurgerApp.ViewModels/SEDC.BurgerApp.ViewModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SEDC.BurgerApp.Helpers >= 1.0.0",
+      "SEDC.BurgerApp.Services >= 1.0.0",
+      "SEDC.BurgerApp.ViewModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\marti\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\marti\\Desktop\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Web\\SEDC.BurgerApp.Web.csproj",
+      "projectName": "SEDC.BurgerApp.Web",
+      "projectPath": "C:\\Users\\marti\\Desktop\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Web\\SEDC.BurgerApp.Web.csproj",
+      "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marti\\Desktop\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\marti\\Desktop\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Helpers\\SEDC.BurgerApp.Helpers.csproj": {
+              "projectPath": "C:\\Users\\marti\\Desktop\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Helpers\\SEDC.BurgerApp.Helpers.csproj"
+            },
+            "C:\\Users\\marti\\Desktop\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Services\\SEDC.BurgerApp.Services.csproj": {
+              "projectPath": "C:\\Users\\marti\\Desktop\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Services\\SEDC.BurgerApp.Services.csproj"
+            },
+            "C:\\Users\\marti\\Desktop\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.ViewModels\\SEDC.BurgerApp.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\marti\\Desktop\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.ViewModels\\SEDC.BurgerApp.ViewModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

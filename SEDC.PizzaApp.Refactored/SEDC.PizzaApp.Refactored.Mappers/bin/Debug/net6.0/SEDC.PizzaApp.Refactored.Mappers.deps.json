@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SEDC.PizzaApp.Refactored.Mappers/1.0.0": {
+        "dependencies": {
+          "SEDC.PizzaApp.Refactored.Domain": "1.0.0",
+          "SEDC.PizzaApp.Refactored.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "SEDC.PizzaApp.Refactored.Mappers.dll": {}
+        }
+      },
+      "SEDC.PizzaApp.Refactored.Domain/1.0.0": {
+        "runtime": {
+          "SEDC.PizzaApp.Refactored.Domain.dll": {}
+        }
+      },
+      "SEDC.PizzaApp.Refactored.ViewModels/1.0.0": {
+        "dependencies": {
+          "SEDC.PizzaApp.Refactored.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SEDC.PizzaApp.Refactored.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SEDC.PizzaApp.Refactored.Mappers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SEDC.PizzaApp.Refactored.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SEDC.PizzaApp.Refactored.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

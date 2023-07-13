@@ -1,0 +1,12 @@
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\bin\Debug\net6.0\SEDC.PizzaApp.Refactored.Domain.deps.json
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\bin\Debug\net6.0\SEDC.PizzaApp.Refactored.Domain.dll
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\bin\Debug\net6.0\SEDC.PizzaApp.Refactored.Domain.pdb
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\obj\Debug\net6.0\SEDC.PizzaApp.Refactored.Domain.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\obj\Debug\net6.0\SEDC.PizzaApp.Refactored.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\obj\Debug\net6.0\SEDC.PizzaApp.Refactored.Domain.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\obj\Debug\net6.0\SEDC.PizzaApp.Refactored.Domain.AssemblyInfo.cs
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\obj\Debug\net6.0\SEDC.PizzaApp.Refactored.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\obj\Debug\net6.0\SEDC.PizzaApp.Refactored.Domain.dll
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\obj\Debug\net6.0\refint\SEDC.PizzaApp.Refactored.Domain.dll
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\obj\Debug\net6.0\SEDC.PizzaApp.Refactored.Domain.pdb
+C:\Users\marti\Desktop\code\All Repository\.NET\G2\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored.Domain\obj\Debug\net6.0\ref\SEDC.PizzaApp.Refactored.Domain.dll
