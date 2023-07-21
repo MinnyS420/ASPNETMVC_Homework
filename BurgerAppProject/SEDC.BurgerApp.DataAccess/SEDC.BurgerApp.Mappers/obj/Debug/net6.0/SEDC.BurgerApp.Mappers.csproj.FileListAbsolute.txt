@@ -1,0 +1,34 @@
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.Mappers.deps.json
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.Mappers.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.Mappers.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.ViewModels.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.Domain.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.ViewModels.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.AssemblyInfo.cs
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.csproj.CopyComplete
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\refint\SEDC.BurgerApp.Mappers.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\ref\SEDC.BurgerApp.Mappers.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.Mappers.deps.json
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.Mappers.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.Mappers.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.ViewModels.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.Domain.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\bin\Debug\net6.0\SEDC.BurgerApp.ViewModels.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.AssemblyInfo.cs
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.csproj.CopyComplete
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\refint\SEDC.BurgerApp.Mappers.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\SEDC.BurgerApp.Mappers.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Mappers\obj\Debug\net6.0\ref\SEDC.BurgerApp.Mappers.dll

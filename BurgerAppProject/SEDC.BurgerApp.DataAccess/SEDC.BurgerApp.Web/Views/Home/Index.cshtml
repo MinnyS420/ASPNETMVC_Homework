@@ -1,8 +1,39 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    decimal averagePrice = Model.AverageOrderPrice; // Assuming the model passed to the view has a property for the average price.
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model HomeIndexViewModel
+
+<div class="jumbotron">
+    <h1>Welcome to our Burger app!</h1>
+    <h4>We are popular! We have already had @Model.OrderCount orders!</h4>
+
+    <h3>Our special burgers:</h3>
+
+    <div class="card text-black mb-3" style="max-width: auto; margin-left: 10px; align-items: center;flex-direction: row; flex-wrap: wrap;">
+
+        @foreach (var burger in Model.BurgerIsPopular)
+        {
+            <div class="card-body" style="background-color: rgb(0,0,0,0); border: 0px;">
+                <h5><li style="list-style: none;">@burger</li></h5>
+                @if (!string.IsNullOrEmpty(burger))
+                {
+                    var imageName = burger.Replace(" ", "").ToLower();
+                    <img src="~/Images/burgers/@(imageName).jpg" alt="@burger" style="max-width: 200px; max-height: 150px;" />
+                }
+            </div>
+        }
+
+    </div>
+
+
+    <h2>Average Order Price: $@Model.AverageOrderPrice.ToString("F2")</h2>
+    <h3>List of all locations:</h3>
+    <ul>
+        @foreach (var location in Model.Locations)
+        {
+            <li>@location.Name - @location.Address</li>
+        }
+    </ul>
 </div>

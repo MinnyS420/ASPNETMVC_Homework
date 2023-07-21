@@ -1,0 +1,24 @@
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\bin\Debug\net6.0\SEDC.BurgerApp.Domain.deps.json
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\bin\Debug\net6.0\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\bin\Debug\net6.0\SEDC.BurgerApp.Domain.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.AssemblyInfo.cs
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\refint\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\ref\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\bin\Debug\net6.0\SEDC.BurgerApp.Domain.deps.json
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\bin\Debug\net6.0\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\bin\Debug\net6.0\SEDC.BurgerApp.Domain.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.AssemblyInfo.cs
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\refint\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\SEDC.BurgerApp.Domain.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Domain\obj\Debug\net6.0\ref\SEDC.BurgerApp.Domain.dll

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SEDC.BurgerApp.Mappers/1.0.0": {
+        "dependencies": {
+          "SEDC.BurgerApp.Domain": "1.0.0",
+          "SEDC.BurgerApp.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "SEDC.BurgerApp.Mappers.dll": {}
+        }
+      },
+      "SEDC.BurgerApp.Domain/1.0.0": {
+        "runtime": {
+          "SEDC.BurgerApp.Domain.dll": {}
+        }
+      },
+      "SEDC.BurgerApp.ViewModels/1.0.0": {
+        "dependencies": {
+          "SEDC.BurgerApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SEDC.BurgerApp.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SEDC.BurgerApp.Mappers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SEDC.BurgerApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SEDC.BurgerApp.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

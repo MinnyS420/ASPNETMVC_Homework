@@ -1,0 +1,46 @@
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Helpers.deps.json
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Helpers.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Helpers.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.DataAccess.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Mappers.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Services.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.ViewModels.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Services.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.DataAccess.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Domain.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Mappers.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.ViewModels.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.AssemblyInfo.cs
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.csproj.CopyComplete
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\refint\SEDC.BurgerApp.Helpers.dll
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.pdb
+C:\Users\marti\Desktop\code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\ref\SEDC.BurgerApp.Helpers.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Helpers.deps.json
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Helpers.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Helpers.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.DataAccess.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Domain.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Mappers.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Services.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.ViewModels.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Services.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.DataAccess.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Domain.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.Mappers.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\bin\Debug\net6.0\SEDC.BurgerApp.ViewModels.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.AssemblyInfo.cs
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.csproj.CopyComplete
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\refint\SEDC.BurgerApp.Helpers.dll
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\SEDC.BurgerApp.Helpers.pdb
+C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Helpers\obj\Debug\net6.0\ref\SEDC.BurgerApp.Helpers.dll

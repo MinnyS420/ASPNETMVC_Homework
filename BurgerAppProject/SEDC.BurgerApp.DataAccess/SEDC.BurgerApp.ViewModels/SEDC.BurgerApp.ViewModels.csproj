@@ -10,4 +10,8 @@
     <ProjectReference Include="..\SEDC.BurgerApp.Domain\SEDC.BurgerApp.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="LocationViewModels\" />
+  </ItemGroup>
+
 </Project>

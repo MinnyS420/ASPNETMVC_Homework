@@ -1,6 +1,4 @@
-﻿using SEDC.BurgerApp.Domain.Enums;
-
-namespace SEDC.BurgerApp.Domain.Models
+﻿namespace SEDC.BurgerApp.Domain.Models
 {
     public class BurgerOrder : BaseEntity
     {
@@ -8,6 +6,5 @@ namespace SEDC.BurgerApp.Domain.Models
         public int BurgerId { get; set; }
         public Order Order { get; set; }
         public int OrderId { get; set; }
-        public BurgerType BurgerType { get; set; }
     }
 }

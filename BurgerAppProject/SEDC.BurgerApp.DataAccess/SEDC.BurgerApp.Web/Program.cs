@@ -1,7 +1,21 @@
+using SEDC.BurgerApp.DataAccess.Repositories.Abstraction;
+using SEDC.BurgerApp.DataAccess.Repositories.StaticDbImp;
+using SEDC.BurgerApp.Domain.Models;
+using SEDC.BurgerApp.Services;
+using SEDC.BurgerApp.Services.Abstractions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddTransient<IOrderService, OrderService>();
+builder.Services.AddTransient<IRepository<Order>, OrderRepo>();
+builder.Services.AddTransient<IRepository<Location>, LocationRepo>();
+builder.Services.AddScoped<ILocationService, LocationService>();
+builder.Services.AddTransient<IBurgerRepository, BurgerRepo>();
+builder.Services.AddScoped<IBurgerService, BurgerService>();
+
 
 var app = builder.Build();
 

@@ -1,0 +1,17 @@
+﻿@model SEDC.BurgerApp.ViewModels.OrderViewModels.OrderDetailsViewModel
+
+<h2>Order Details</h2>
+<div>
+    <h4>Info: <br />@Model.FullName <br />@Model.Location.Name</h4>
+    <p>Delivery Status: @(Model.IsDelivered ? "Delivered" : "Not Delivered")</p>
+
+    <h5>Burgers:</h5>
+    <ol>
+        @foreach (var burgerName in Model.BurgersNames)
+        {
+            <li>@burgerName</li>
+        }
+    </ol>
+</div>
+
+<a asp-controller="Order" asp-action="Index" class="btn btn-primary">Back to List</a>
