@@ -12,17 +12,8 @@ namespace SEDC.BurgerApp.Mappers.Extensions
                 Id = order.Id,
                 IsDelivered = order.IsDelivered,
                 FullName = order.FullName,
-                BurgerNames = order.BurgerOrders.Select(bo => bo.Burger.Name).ToList(),
-            };
-        }
-
-        public static Order MapToOrder(this OrderViewModel orderViewModel)
-        {
-            return new Order
-            {
-                IsDelivered = orderViewModel.IsDelivered,
-                BurgerOrders = new List<BurgerOrder>(),
-                LocationId = orderViewModel.LocationId,
+                Address = order.Address,
+                BurgerNames = order.BurgerOrders?.Select(bo => bo.Burger.Name).ToList() ?? new List<string>()
             };
         }
 
@@ -40,23 +31,14 @@ namespace SEDC.BurgerApp.Mappers.Extensions
 
         public static OrderViewModel MapToOrderViewModel(this Order order)
         {
-            return new OrderViewModel 
+            return new OrderViewModel
             {
-                Id= order.Id,
+                Id = order.Id,
                 Location = order.Location,
-                IsDelivered= order.IsDelivered,
+                IsDelivered = order.IsDelivered,
                 LocationId = order.LocationId
             };
         }
-        public static OrderEditViewModel MapToOrderViewModels(this Order order)
-        {
-            return new OrderEditViewModel
-            {
-                Id = order.Id,
-                FullName = order.FullName,
-                Address = order.Address,
-                Location = order.Location
-            };
-        }
+
     }
 }

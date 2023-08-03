@@ -12,5 +12,7 @@ namespace SEDC.BurgerApp.ViewModels.OrderViewModels
         public Location Location { get; set; }
         [Display(Name = "User")]
         public int LocationId { get; set; }
+        public string Address { get; set; }
+        public string FullName { get; set; }
     }
 }

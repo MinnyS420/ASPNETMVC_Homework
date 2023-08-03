@@ -4,6 +4,6 @@ namespace SEDC.BurgerApp.DataAccess.Repositories.Abstraction
 {
     public interface IBurgerRepository : IRepository<Burger>
     {
-        Burger GetBurgerIsPopular();
+        // In case something is needed
     }
 }

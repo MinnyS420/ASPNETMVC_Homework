@@ -15,7 +15,7 @@ namespace SEDC.BurgerApp.DataAccess.Data
         static StaticDb()
         {
             BurgerId = 10;
-            OrderId = 4;
+            OrderId = 3;
             LocationId = 3;
 
             Burgers = new List<Burger>
@@ -27,7 +27,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     Price = 2,
                     IsVegan = false,
                     IsVegetarian = false,
-                    IsPopularBurger = true,
                     HasFries = false,
                     BurgerOrders = new List<BurgerOrder> {}
                 },
@@ -38,7 +37,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     Price = 3,
                     IsVegan = false,
                     IsVegetarian = false,
-                    IsPopularBurger = true,
                     HasFries = true,
                     BurgerOrders = new List<BurgerOrder> {}
                 },
@@ -49,7 +47,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     Price = 2,
                     IsVegan = false,
                     IsVegetarian = true,
-                    IsPopularBurger = false,
                     HasFries = true,
                     BurgerOrders = new List<BurgerOrder> {}
                 },
@@ -61,7 +58,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     Price = 3.5,
                     IsVegan = false,
                     IsVegetarian = false,
-                    IsPopularBurger = true,
                     HasFries = true,
                     BurgerOrders = new List<BurgerOrder> {}
                 },
@@ -72,7 +68,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     Price = 5.0,
                     IsVegan = false,
                     IsVegetarian = false,
-                    IsPopularBurger = true,
                     HasFries = true,
                     BurgerOrders = new List<BurgerOrder> {}
                 },
@@ -83,7 +78,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     Price = 4.5,
                     IsVegan = false,
                     IsVegetarian = false,
-                    IsPopularBurger = true,
                     HasFries = true,
                     BurgerOrders = new List<BurgerOrder> {}
                 },
@@ -94,7 +88,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     Price = 3.8,
                     IsVegan = false,
                     IsVegetarian = false,
-                    IsPopularBurger = false,
                     HasFries = true,
                     BurgerOrders = new List<BurgerOrder> {}
                 },
@@ -105,7 +98,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     Price = 3.2,
                     IsVegan = true,
                     IsVegetarian = true,
-                    IsPopularBurger = true,
                     HasFries = true,
                     BurgerOrders = new List<BurgerOrder> {}
                 },
@@ -116,7 +108,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     Price = 4.0,
                     IsVegan = false,
                     IsVegetarian = false,
-                    IsPopularBurger = true,
                     HasFries = true,
                     BurgerOrders = new List<BurgerOrder> {}
                 },
@@ -127,7 +118,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     Price = 3.5,
                     IsVegan = true,
                     IsVegetarian = true,
-                    IsPopularBurger = true,
                     HasFries = true,
                     BurgerOrders = new List<BurgerOrder> {}
                 }
@@ -167,7 +157,7 @@ namespace SEDC.BurgerApp.DataAccess.Data
                 {
                     Id = 1,
                     FullName = "Bob Bobsky",
-                    Address = "Tehno Burgeri",
+                    Address = "Ilinden",
                     IsDelivered = true,
                     BurgerOrders = new List<BurgerOrder>
                     {
@@ -192,7 +182,7 @@ namespace SEDC.BurgerApp.DataAccess.Data
                 {
                     Id = 2,
                     FullName = "Boki Boksan",
-                    Address = "Anhoch Burgeri",
+                    Address = "Skopje",
                     IsDelivered = false,
                     BurgerOrders = new List<BurgerOrder>
                     {
@@ -210,7 +200,7 @@ namespace SEDC.BurgerApp.DataAccess.Data
                 {
                     Id = 3,
                     FullName = "Jhon Wick",
-                    Address = "Setek Burgeri",
+                    Address = "Veles",
                     IsDelivered = false,
                     BurgerOrders = new List<BurgerOrder>
                     {
@@ -224,140 +214,7 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     },
                     Location = Locations[2]
                 },
-                // Additional orders
-                new Order
-                {
-                    Id = 4,
-                    FullName = "Jane Doe",
-                    Address = "Anhoch Burgeri",
-                    IsDelivered = false,
-                    BurgerOrders = new List<BurgerOrder>
-                    {
-                        new BurgerOrder
-                        {
-                            Id = 5,
-                            Burger = Burgers[3],
-                            BurgerId = Burgers[3].Id,
-                            OrderId = 4,
-                        },
-                    },
-                    Location = Locations[1]
-                },
-                new Order
-                {
-                    Id = 5,
-                    FullName = "Peter Parker",
-                    Address = "Tehno Burgeri",
-                    IsDelivered = true,
-                    BurgerOrders = new List<BurgerOrder>
-                    {
-                        new BurgerOrder
-                        {
-                            Id = 6,
-                            Burger = Burgers[4],
-                            BurgerId = Burgers[4].Id,
-                            OrderId = 5,
-                        },
-                        new BurgerOrder
-                        {
-                            Id = 7,
-                            Burger = Burgers[5],
-                            BurgerId = Burgers[5].Id,
-                            OrderId = 5,
-                        },
-                    },
-                    Location = Locations[0]
-                },
-                new Order
-                {
-                    Id = 6,
-                    FullName = "Clark Kent",
-                    Address = "Setek Burgeri",
-                    IsDelivered = true,
-                    BurgerOrders = new List<BurgerOrder>
-                    {
-                        new BurgerOrder
-                        {
-                            Id = 8,
-                            Burger = Burgers[6],
-                            BurgerId = Burgers[6].Id,
-                            OrderId = 6,
-                        },
-                    },
-                    Location = Locations[2]
-                },
-                new Order
-                {
-                    Id = 7,
-                    FullName = "Selina Kyle",
-                    Address = "Anhoch Burgeri",
-                    IsDelivered = false,
-                    BurgerOrders = new List<BurgerOrder>
-                    {
-                        new BurgerOrder
-                        {
-                            Id = 9,
-                            Burger = Burgers[7],
-                            BurgerId = Burgers[7].Id,
-                            OrderId = 7,
-                        },
-                    },
-                    Location = Locations[1]
-                },
-                new Order
-                {
-                    Id = 8,
-                    FullName = "Bruce Wayne",
-                    Address = "Tehno Burgeri",
-                    IsDelivered = true,
-                    BurgerOrders = new List<BurgerOrder>
-                    {
-                        new BurgerOrder
-                        {
-                            Id = 10,
-                            Burger = Burgers[8],
-                            BurgerId = Burgers[8].Id,
-                            OrderId = 8,
-                        },
-                    },
-                    Location = Locations[0]
-                },
-                new Order
-                {
-                    Id = 9,
-                    FullName = "Diana Prince",
-                    Address = "Setek Burgeri",
-                    IsDelivered = true,
-                    BurgerOrders = new List<BurgerOrder>
-                    {
-                        new BurgerOrder
-                        {
-                            Id = 11,
-                            Burger = Burgers[9],
-                            BurgerId = Burgers[9].Id,
-                            OrderId = 9,
-                        },
-                    },
-                    Location = Locations[2]
-                },
-                new Order
-                {
-                    Id = 10,
-                    FullName = "Steve Rogers",
-                    Address = "Anhoch Burgeri",
-                    IsDelivered = false,
-                    BurgerOrders = new List<BurgerOrder>
-                    {
-                        new BurgerOrder
-                        {
-                            Id = 12,
-                            Burger = Burgers[0],
-                            BurgerId = Burgers[0].Id,
-                            OrderId = 10,
-                        },
-                    },
-                    Location = Locations[1]
-                },
+                
             };
         }
     }

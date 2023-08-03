@@ -35,5 +35,6 @@ namespace SEDC.BurgerApp.DataAccess.Repositories.StaticDbImp
             int index = StaticDb.Orders.IndexOf(order);
             StaticDb.Orders[index] = entity;
         }
+
     }
 }

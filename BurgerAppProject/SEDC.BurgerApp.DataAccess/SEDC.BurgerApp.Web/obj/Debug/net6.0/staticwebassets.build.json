@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CeBnOdFf94NIweSvxk5Y+qjXzTZ291zKREo2vCuhMPI=",
+  "Hash": "r3y7AoTT9Qnp7AAKsygBnXhNX0uLoM2O33r3YAtGMX4=",
   "Source": "SEDC.BurgerApp.Web",
   "BasePath": "_content/SEDC.BurgerApp.Web",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\burgers\\MushroomBurger.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\marti\\Desktop\\\u00A0\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Web\\wwwroot\\images\\burgers\\SomeBurger.jpg",
+      "SourceId": "SEDC.BurgerApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\\u00A0\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Web\\wwwroot\\",
+      "BasePath": "_content/SEDC.BurgerApp.Web",
+      "RelativePath": "images/burgers/SomeBurger.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\burgers\\SomeBurger.jpg"
     },
     {
       "Identity": "C:\\Users\\marti\\Desktop\\\u00A0\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Web\\wwwroot\\images\\burgers\\VeganBurger.jpg",

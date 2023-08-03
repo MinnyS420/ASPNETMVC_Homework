@@ -21,11 +21,6 @@ namespace SEDC.BurgerApp.DataAccess.Repositories.StaticDbImp
             return StaticDb.Burgers;
         }
 
-        public Burger GetBurgerIsPopular()
-        {
-            return StaticDb.Burgers.FirstOrDefault(burger => burger.IsPopularBurger);
-        }
-
         public Burger GetById(int id)
         {
             return StaticDb.Burgers.FirstOrDefault(x => x.Id == id);

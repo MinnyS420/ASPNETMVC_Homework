@@ -5,8 +5,9 @@
         public string? FullName { get; set; }
         public string? Address { get; set; }
         public bool IsDelivered { get; set; }
-        public List<BurgerOrder>? BurgerOrders { get; set; }
+        public List<BurgerOrder> BurgerOrders { get; set; }
         public Location Location { get; set; }
         public int LocationId { get; set; }
+        public List<string> BurgerNames { get; set; }
     }
 }

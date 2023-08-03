@@ -1,5 +1,5 @@
 ﻿using SEDC.BurgerApp.Domain.Models;
-using SEDC.BurgerApp.ViewModels;
+using SEDC.BurgerApp.ViewModels.LocationViewModels;
 using SEDC.BurgerApp.ViewModels.LocationViewModels.SEDC.BurgerApp.ViewModels;
 
 namespace SEDC.BurgerApp.Mappers

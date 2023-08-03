@@ -1,32 +1,20 @@
-﻿@{
+﻿@model HomeIndexViewModel
+@{
     ViewData["Title"] = "Home Page";
-    decimal averagePrice = Model.AverageOrderPrice; // Assuming the model passed to the view has a property for the average price.
+    decimal averagePrice = Model.AverageOrderPrice;
 }
-
-@model HomeIndexViewModel
 
 <div class="jumbotron">
     <h1>Welcome to our Burger app!</h1>
+    
+    <h2>Most Ordered Burger: <br/>@Model.MostOrderedBurger</h2>
+
+    @if (!string.IsNullOrEmpty(Model.MostOrderedBurgerImageName))
+    {
+        <img src="~/Images/burgers/@(Model.MostOrderedBurgerImageName).jpg" alt="@Model.MostOrderedBurger" style="max-width: 200px; max-height: 150px;" />
+    }
+
     <h4>We are popular! We have already had @Model.OrderCount orders!</h4>
-
-    <h3>Our special burgers:</h3>
-
-    <div class="card text-black mb-3" style="max-width: auto; margin-left: 10px; align-items: center;flex-direction: row; flex-wrap: wrap;">
-
-        @foreach (var burger in Model.BurgerIsPopular)
-        {
-            <div class="card-body" style="background-color: rgb(0,0,0,0); border: 0px;">
-                <h5><li style="list-style: none;">@burger</li></h5>
-                @if (!string.IsNullOrEmpty(burger))
-                {
-                    var imageName = burger.Replace(" ", "").ToLower();
-                    <img src="~/Images/burgers/@(imageName).jpg" alt="@burger" style="max-width: 200px; max-height: 150px;" />
-                }
-            </div>
-        }
-
-    </div>
-
 
     <h2>Average Order Price: $@Model.AverageOrderPrice.ToString("F2")</h2>
     <h3>List of all locations:</h3>

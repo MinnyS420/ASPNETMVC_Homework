@@ -13,6 +13,7 @@ builder.Services.AddTransient<IOrderService, OrderService>();
 builder.Services.AddTransient<IRepository<Order>, OrderRepo>();
 builder.Services.AddTransient<IRepository<Location>, LocationRepo>();
 builder.Services.AddScoped<ILocationService, LocationService>();
+builder.Services.AddScoped<ILocationService, LocationService>();
 builder.Services.AddTransient<IBurgerRepository, BurgerRepo>();
 builder.Services.AddScoped<IBurgerService, BurgerService>();
 

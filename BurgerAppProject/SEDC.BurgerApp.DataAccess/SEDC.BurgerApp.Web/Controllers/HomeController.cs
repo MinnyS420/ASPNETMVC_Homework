@@ -21,17 +21,22 @@ namespace SEDC.BurgerApp.Web.Controllers
             _locationService = locationService;
         }
 
+        // HomeController.cs
+
         public IActionResult Index()
         {
             HomeIndexViewModel homeIndexViewModel = new HomeIndexViewModel();
-            homeIndexViewModel.BurgerIsPopular = _burgerService.GetBurgerIsPopular();
             homeIndexViewModel.OrderCount = _orderService.GetAllOrders().Count;
             homeIndexViewModel.Locations = _locationService.GetAllLocations();
 
             homeIndexViewModel.AverageOrderPrice = _orderService.GetAverageOrderPrice();
+            homeIndexViewModel.MostOrderedBurger = _orderService.GetMostOrderedBurger();
+            homeIndexViewModel.MostOrderedBurgerImageName = _orderService.GetMostOrderedBurgerImageName();
 
             return View(homeIndexViewModel);
         }
+
+
 
         public IActionResult Privacy()
         {

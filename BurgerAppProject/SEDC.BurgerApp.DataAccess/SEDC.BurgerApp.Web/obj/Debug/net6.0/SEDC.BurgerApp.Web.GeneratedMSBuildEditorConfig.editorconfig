@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\marti\Desktop\ \code\.NET\.NET_Homework\BurgerAppProject\SEDC.BurgerApp.DataAccess\SEDC.BurgerApp.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/marti/Desktop/ /code/.NET/.NET_Homework/BurgerAppProject/SEDC.BurgerApp.DataAccess/SEDC.BurgerApp.Web/Views/Burgers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2Vyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marti/Desktop/ /code/.NET/.NET_Homework/BurgerAppProject/SEDC.BurgerApp.DataAccess/SEDC.BurgerApp.Web/Views/Burgers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2Vyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/marti/Desktop/ /code/.NET/.NET_Homework/BurgerAppProject/SEDC.BurgerApp.DataAccess/SEDC.BurgerApp.Web/Views/Burgers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2Vyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/marti/Desktop/ /code/.NET/.NET_Homework/BurgerAppProject/SEDC.BurgerApp.DataAccess/SEDC.BurgerApp.Web/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/marti/Desktop/ /code/.NET/.NET_Homework/BurgerAppProject/SEDC.BurgerApp.DataAccess/SEDC.BurgerApp.Web/Views/Order/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/marti/Desktop/ /code/.NET/.NET_Homework/BurgerAppProject/SEDC.BurgerApp.DataAccess/SEDC.BurgerApp.Web/Views/Order/Index.cshtml]

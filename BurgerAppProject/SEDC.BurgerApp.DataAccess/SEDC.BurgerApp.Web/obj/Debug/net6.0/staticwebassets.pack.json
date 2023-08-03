@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\images\\burgers\\MushroomBurger.jpg"
     },
     {
+      "Id": "C:\\Users\\marti\\Desktop\\\u00A0\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Web\\wwwroot\\images\\burgers\\SomeBurger.jpg",
+      "PackagePath": "staticwebassets\\images\\burgers\\SomeBurger.jpg"
+    },
+    {
       "Id": "C:\\Users\\marti\\Desktop\\\u00A0\\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Web\\wwwroot\\images\\burgers\\VeganBurger.jpg",
       "PackagePath": "staticwebassets\\images\\burgers\\VeganBurger.jpg"
     },

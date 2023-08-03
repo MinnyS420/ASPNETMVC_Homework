@@ -2,16 +2,19 @@
 using SEDC.BurgerApp.Services.Abstractions;
 using SEDC.BurgerApp.ViewModels.OrderViewModels;
 
-
 namespace SEDC.BurgerApp.Web.Controllers
 {
     public class OrderController : Controller
     {
-        private IOrderService _orderService;
+        private readonly IOrderService _orderService;
+        private readonly ILocationService _locationService;
+        private readonly IBurgerService _burgerService; // Add this line to inject the IBurgerService
 
-        public OrderController(IOrderService orderService)
+        public OrderController(IOrderService orderService, ILocationService locationService, IBurgerService burgerService)
         {
             _orderService = orderService;
+            _locationService = locationService;
+            _burgerService = burgerService; // Initialize the IBurgerService
         }
 
         [HttpGet]
@@ -41,34 +44,36 @@ namespace SEDC.BurgerApp.Web.Controllers
             }
         }
 
-        [HttpGet]
-        public IActionResult Edit(int id)
-        {
-            // Retrieve the order for editing from your service
-            OrderEditViewModel orderEditViewModel = _orderService.GetOrderForEditing(id);
-            return View(orderEditViewModel);
-        }
-
+       
 
         [HttpPost]
-        public IActionResult Edit(OrderEditViewModel orderViewModel)
+        [ValidateAntiForgeryToken]
+        public IActionResult Delete(int id)
         {
-            if (ModelState.IsValid)
+            // Get the order by its ID from the service
+            var order = _orderService.GetOrderById(id);
+
+            // Check if the order exists
+            if (order == null)
             {
-                try
-                {
-                    _orderService.EditOrder(orderViewModel);
-                    return RedirectToAction("Index");
-                }
-                catch (Exception e)
-                {
-                    // We can add logs here
-                    return View("ExceptionPage");
-                }
+                return NotFound(); // Return a 404 Not Found view if the order is not found
             }
 
-            // If ModelState is not valid, return the view with validation errors
-            return View(orderViewModel);
+            try
+            {
+                // Delete the order
+                _orderService.DeleteOrder(id);
+
+                // Redirect to the "Orders" view after successful deletion
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions that may occur during the deletion process
+                // You can also display an error message or log the error here
+                return View("Error");
+            }
         }
+
     }
 }

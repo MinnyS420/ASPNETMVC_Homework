@@ -6,7 +6,11 @@ namespace SEDC.BurgerApp.Services.Abstractions
     public interface IBurgerService
     {
         List<BurgerIndexViewModel> GetBurgersFromDropdown();
-        List<string> GetBurgerIsPopular();
         List<BurgerIndexViewModel> GetAllBurgers();
+        BurgerCreateViewModel GetBurgerById(int id);
+        (string, string) GetMostOrderedBurger();
+        void AddBurger(BurgerCreateViewModel burgerViewModel);
+        void UpdateBurger(BurgerEditViewModel model);
+        void DeleteBurger(int id);
     }
 }
