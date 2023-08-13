@@ -16,7 +16,7 @@ BurgerApp is a web application that lets users order delicious burgers from vari
 
 ### Prerequisites
 
-- .NET Core SDK (version X.X.X)
+- .NET Core SDK (version 6.0.0)
 - SQL Server (Express or higher)
 
 ### Installation
