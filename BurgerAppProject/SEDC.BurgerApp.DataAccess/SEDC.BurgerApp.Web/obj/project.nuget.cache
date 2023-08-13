@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8U9MwfDekxn6FyRxbtAuHGEgHX4cCezv8NbFBlsERhCqVHsi1svWIju/5t1UmKohtJ6eGQd++WUs75dZFhf6qg==",
+  "dgSpecHash": "N/OYNaZCE9YN8yapeA3CdYSpdm2usUDg2q3GOGDh7u0AlOB5DHd81nPJzDG/LLhnqOGc4hjqJRz6s6flOmpzow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marti\\Desktop\\ \\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Web\\SEDC.BurgerApp.Web.csproj",
+  "projectFilePath": "C:\\Users\\marti\\Desktop\\code\\MVC\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Web\\SEDC.BurgerApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -18,7 +18,7 @@
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
-    "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",

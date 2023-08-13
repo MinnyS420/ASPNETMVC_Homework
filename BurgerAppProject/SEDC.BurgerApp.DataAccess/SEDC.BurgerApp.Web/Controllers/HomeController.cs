@@ -13,7 +13,10 @@ namespace SEDC.BurgerApp.Web.Controllers
         private IOrderService _orderService;
         private ILocationService _locationService;
 
-        public HomeController(ILogger<HomeController> logger,IBurgerService burgerService, IOrderService orderService, ILocationService locationService)
+        public HomeController(ILogger<HomeController> logger,
+                              IBurgerService burgerService,
+                              IOrderService orderService,
+                              ILocationService locationService)
         {
             _logger = logger;
             _burgerService = burgerService;
@@ -35,8 +38,6 @@ namespace SEDC.BurgerApp.Web.Controllers
 
             return View(homeIndexViewModel);
         }
-
-
 
         public IActionResult Privacy()
         {

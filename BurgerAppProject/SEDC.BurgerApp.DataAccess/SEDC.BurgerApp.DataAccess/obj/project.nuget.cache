@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EUqLIIplRtVSazVi2T5CrX9ztiYYPEH8+D1sc+yfIT09/KNV4BCOWK5YG0/DAycaI1r5sb/G8VL135ScXSat7Q==",
+  "dgSpecHash": "BPO4F/TqcMQcx4xwO/YHP0gNxLZExHug/09khpTK377NAf02iKVgh0foQ7zWbpBy1pgIgwS6oHyJo+5/8VyR6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marti\\Desktop\\ \\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\marti\\Desktop\\code\\MVC\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marti\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\marti\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

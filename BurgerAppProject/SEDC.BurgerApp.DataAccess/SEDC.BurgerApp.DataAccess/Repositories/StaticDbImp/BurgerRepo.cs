@@ -38,7 +38,7 @@ namespace SEDC.BurgerApp.DataAccess.Repositories.StaticDbImp
             Burger burger = StaticDb.Burgers.FirstOrDefault(x => x.Id == entity.Id);
             if (burger == null)
             {
-                throw new Exception($"Pizza with id {entity.Id} was not found");
+                throw new Exception($"Burger with id {entity.Id} was not found");
             }
             int index = StaticDb.Burgers.IndexOf(burger);
             StaticDb.Burgers[index] = entity;

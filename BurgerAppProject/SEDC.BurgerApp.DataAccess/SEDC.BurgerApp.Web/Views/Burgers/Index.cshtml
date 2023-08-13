@@ -1,11 +1,13 @@
-﻿<h1>Burger Menu</h1>
+﻿@model List<BurgerIndexViewModel>
+
+<h1>Burger Menu</h1>
 <div class="row">
     <div class="card text-black mb-3" style="max-width: auto; margin-left: 10px;flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
         @if (Model.Count > 0)
         {
             @foreach (var burger in Model)
             {
-                <div class="card-body" style="background-color: rgb(0,0,0,0); border: 0px;">
+                <div class="card-body" style="background-color: rgb(0,0,0,0); border: 0px; text-align: center;">
                     <li style="list-style: none;">
                         <h3>@burger.Name</h3>
                         @if (!string.IsNullOrEmpty(burger.Name))

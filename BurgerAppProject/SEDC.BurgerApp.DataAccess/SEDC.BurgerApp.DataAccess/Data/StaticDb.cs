@@ -50,7 +50,6 @@ namespace SEDC.BurgerApp.DataAccess.Data
                     HasFries = true,
                     BurgerOrders = new List<BurgerOrder> {}
                 },
-                // Additional burgers
                 new Burger
                 {
                     Id = 4,

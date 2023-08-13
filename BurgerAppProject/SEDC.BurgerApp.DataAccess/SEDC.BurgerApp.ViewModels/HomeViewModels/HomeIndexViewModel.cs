@@ -1,4 +1,4 @@
-﻿using SEDC.BurgerApp.ViewModels.LocationViewModels.SEDC.BurgerApp.ViewModels;
+﻿using SEDC.BurgerApp.ViewModels.LocationViewModels;
 
 namespace SEDC.BurgerApp.ViewModels.HomeViewModels
 {

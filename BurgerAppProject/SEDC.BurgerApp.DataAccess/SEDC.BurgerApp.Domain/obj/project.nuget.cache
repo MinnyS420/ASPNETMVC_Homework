@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZXCW8MNsAEDh6fgyHFkz4MlETced8F4mbf8Hf1vsgkdnqnFcf8YlAkT6AecDtaTuff8Fj47+tQE8aL1UXZ+BcA==",
+  "dgSpecHash": "dsZWSwIOZIg82udwOZ1sffdFV9gNSgV4pTKFaqywLRLOb5K2ca0JnPS3mVzhI4MvlCtKpt7sIO/kAG0K3zlczQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marti\\Desktop\\ \\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Domain\\SEDC.BurgerApp.Domain.csproj",
+  "projectFilePath": "C:\\Users\\marti\\Desktop\\code\\MVC\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Domain\\SEDC.BurgerApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

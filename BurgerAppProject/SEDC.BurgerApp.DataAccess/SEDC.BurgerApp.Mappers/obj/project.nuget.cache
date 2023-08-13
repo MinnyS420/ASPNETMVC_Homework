@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5e/b0EVJcmh0DgNAXK1Grc5fezKykZ1PEfkKevS+rncInuWJNp+lzY3WuyHBj4bNd36rBYe3a/HC8VYbB5nKTg==",
+  "dgSpecHash": "zmv4LQhWHBmP222yvlM1zTVCvMQ75uwwRm6TelLVrU/eq/zd4Q/eOkvej+nnfD7gWvHXjiOqXB0nrbjPH+TCEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marti\\Desktop\\ \\code\\.NET\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Mappers\\SEDC.BurgerApp.Mappers.csproj",
+  "projectFilePath": "C:\\Users\\marti\\Desktop\\code\\MVC\\.NET_Homework\\BurgerAppProject\\SEDC.BurgerApp.DataAccess\\SEDC.BurgerApp.Mappers\\SEDC.BurgerApp.Mappers.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

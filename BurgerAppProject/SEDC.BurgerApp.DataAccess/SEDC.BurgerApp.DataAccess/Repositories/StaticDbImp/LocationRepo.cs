@@ -17,7 +17,8 @@ namespace SEDC.BurgerApp.DataAccess.Repositories.StaticDbImp
 
         public List<Location> GetAll()
         {
-            return StaticDb.Locations;
+            return StaticDb.Locations.ToList();
+            //return StaticDb.Locations.ToList();
         }
 
         public Location GetById(int id)
@@ -34,14 +35,13 @@ namespace SEDC.BurgerApp.DataAccess.Repositories.StaticDbImp
 
         public void Update(Location entity)
         {
-            Location location = StaticDb.Locations.FirstOrDefault(l => l.Id == entity.Id);
-            if (location != null)
+            Location location = StaticDb.Locations.FirstOrDefault(x => x.Id == entity.Id);
+            if (location == null)
             {
-                location.Name = entity.Name;
-                location.Address = entity.Address;
-                location.OpensAt = entity.OpensAt;
-                location.ClosesAt = entity.ClosesAt;
+                throw new Exception($"Burger with id {entity.Id} was not found");
             }
+            int index = StaticDb.Locations.IndexOf(location);
+            StaticDb.Locations[index] = entity;
         }
     }
 }

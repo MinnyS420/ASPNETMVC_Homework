@@ -1,4 +1,4 @@
-﻿using SEDC.BurgerApp.ViewModels.LocationViewModels.SEDC.BurgerApp.ViewModels;
+﻿using SEDC.BurgerApp.ViewModels.LocationViewModels;
 
 namespace SEDC.BurgerApp.Services.Abstractions
 {
@@ -6,8 +6,8 @@ namespace SEDC.BurgerApp.Services.Abstractions
     {
         List<LocationViewModel> GetAllLocations();
         LocationViewModel GetLocationById(int id);
-        int AddLocation(LocationViewModel locationViewModel);
-        void UpdateLocation(LocationViewModel locationViewModel);
+        void AddLocation(LocationViewModel model);
+        void UpdateLocation(LocationViewModel model);
         void DeleteLocation(int id);
     }
 }

@@ -8,7 +8,7 @@ namespace SEDC.BurgerApp.Services.Abstractions
         List<BurgerIndexViewModel> GetBurgersFromDropdown();
         List<BurgerIndexViewModel> GetAllBurgers();
         BurgerCreateViewModel GetBurgerById(int id);
-        (string, string) GetMostOrderedBurger();
+        string GetMostOrderedBurger();
         void AddBurger(BurgerCreateViewModel burgerViewModel);
         void UpdateBurger(BurgerEditViewModel model);
         void DeleteBurger(int id);

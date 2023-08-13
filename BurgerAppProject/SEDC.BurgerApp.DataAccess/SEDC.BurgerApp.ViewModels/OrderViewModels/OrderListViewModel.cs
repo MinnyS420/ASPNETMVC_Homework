@@ -1,4 +1,5 @@
-﻿using SEDC.BurgerApp.ViewModels.LocationViewModels.SEDC.BurgerApp.ViewModels;
+﻿using SEDC.BurgerApp.ViewModels.LocationViewModels;
+using System.ComponentModel.DataAnnotations;
 
 namespace SEDC.BurgerApp.ViewModels.OrderViewModels
 {
@@ -9,7 +10,9 @@ namespace SEDC.BurgerApp.ViewModels.OrderViewModels
         public bool IsDelivered { get; set; }
         public string Address { get; set; }
         public LocationViewModel Location { get; set; }
-        public List<string> BurgerNames { get; set; }
+        [Display(Name = "Burgers")]
+        public List<string>? BurgerNames { get; set; }
         public int LocationId { get; set; }
+
     }
 }

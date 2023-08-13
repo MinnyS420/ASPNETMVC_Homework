@@ -5,14 +5,6 @@ namespace SEDC.BurgerApp.Mappers.Extensions
 {
     public static class BurgerMapper
     {
-        public static BurgerIndexViewModel MapToBurgerViewModel(this Burger burger)
-        {
-            return new BurgerIndexViewModel
-            {
-                Id = burger.Id,
-                Name = burger.Name
-            };
-        }
         public static BurgerIndexViewModel MapToViewModel(this Burger burger)
         {
             return new BurgerIndexViewModel
@@ -23,31 +15,19 @@ namespace SEDC.BurgerApp.Mappers.Extensions
                 IsVegan = burger.IsVegan,
                 IsVegetarian = burger.IsVegetarian,
                 HasFries = burger.HasFries,
-                Image = $"/images/burgers/{burger.ImageName}"
+                //Image = $"/images/burgers/{burger.ImageName}"
             };
         }
-        public static Burger MapToBurger(BurgerIndexViewModel viewModel)
+        public static Burger MapToBurger(this BurgerCreateViewModel burgerViewModel)
         {
             return new Burger
             {
-                Id = viewModel.Id,
-                Name = viewModel.Name,
-                Price = viewModel.Price,
-                IsVegan = viewModel.IsVegan,
-                IsVegetarian = viewModel.IsVegetarian,
-                HasFries = viewModel.HasFries
-            };
-        }
-
-        public static Burger MapToModel(this BurgerCreateViewModel viewModel)
-        {
-            return new Burger
-            {
-                Name = viewModel.Name,
-                Price = viewModel.Price,
-                IsVegan = viewModel.IsVegan,
-                IsVegetarian = viewModel.IsVegetarian,
-                HasFries = viewModel.HasFries
+                Id = burgerViewModel.Id,
+                Name = burgerViewModel.Name,
+                Price = burgerViewModel.Price,
+                IsVegan = burgerViewModel.IsVegan,
+                IsVegetarian = burgerViewModel.IsVegetarian,
+                HasFries = burgerViewModel.HasFries
             };
         }
         public static BurgerEditViewModel MapToEditViewModel(Burger burger)
@@ -72,19 +52,6 @@ namespace SEDC.BurgerApp.Mappers.Extensions
                 IsVegan = burger.IsVegan,
                 IsVegetarian = burger.IsVegetarian,
                 HasFries = burger.HasFries
-            };
-        }
-
-        public static Burger MapToBurger(BurgerCreateViewModel burgerViewModel)
-        {
-            return new Burger
-            {
-                Id = burgerViewModel.Id,
-                Name = burgerViewModel.Name,
-                Price = burgerViewModel.Price,
-                IsVegan = burgerViewModel.IsVegan,
-                IsVegetarian = burgerViewModel.IsVegetarian,
-                HasFries = burgerViewModel.HasFries
             };
         }
     }

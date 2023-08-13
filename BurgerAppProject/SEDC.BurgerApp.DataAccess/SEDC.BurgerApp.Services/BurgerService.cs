@@ -1,6 +1,5 @@
 ﻿using SEDC.BurgerApp.DataAccess.Data;
 using SEDC.BurgerApp.DataAccess.Repositories.Abstraction;
-using SEDC.BurgerApp.DataAccess.Repositories.StaticDbImp;
 using SEDC.BurgerApp.Domain.Models;
 using SEDC.BurgerApp.Mappers.Extensions;
 using SEDC.BurgerApp.Services.Abstractions;
@@ -21,7 +20,7 @@ namespace SEDC.BurgerApp.Services
         public List<BurgerIndexViewModel> GetBurgersFromDropdown()
         {
             List<Burger> burgersDb = _burgerRepo.GetAll();
-            return burgersDb.Select(b => b.MapToBurgerViewModel()).ToList();
+            return burgersDb.Select(b => b.MapToViewModel()).ToList();
         }
 
         public List<BurgerIndexViewModel> GetAllBurgers()
@@ -30,7 +29,7 @@ namespace SEDC.BurgerApp.Services
             return burgersDb.Select(b => b.MapToViewModel()).ToList();
         }
 
-        public (string, string) GetMostOrderedBurger()
+        public string GetMostOrderedBurger()
         {
             // Get all orders from the StaticDb
             List<Order> allOrders = StaticDb.Orders;
@@ -49,17 +48,17 @@ namespace SEDC.BurgerApp.Services
 
             if (orderedBurgers == null)
             {
-                return ("No information available", string.Empty);
+                return ("No information available");
             }
 
             // Get the most ordered burger from the StaticDb by its ID
             var mostOrderedBurger = StaticDb.Burgers.FirstOrDefault(burger => burger.Id == orderedBurgers.BurgerId);
             if (mostOrderedBurger == null)
             {
-                return ("No information available", string.Empty);
+                return ("No information available");
             }
 
-            return (mostOrderedBurger.Name, mostOrderedBurger.ImageName);
+            return (mostOrderedBurger.Name /*mostOrderedBurger.ImageName*/);
         }
         public BurgerCreateViewModel GetBurgerById(int id)
         {
@@ -77,7 +76,7 @@ namespace SEDC.BurgerApp.Services
             try
             {
                 // Map the view model to the Burger entity
-                var newBurger = burgerViewModel.MapToModel();
+                Burger newBurger = burgerViewModel.MapToBurger();
 
                 // Add the new burger to the database using the Insert method from the repository
                 _burgerRepo.Insert(newBurger);
